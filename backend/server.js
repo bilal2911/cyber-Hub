@@ -24,6 +24,7 @@ const allowedOrigins = [
   'http://localhost:5173', // standard Vite port
   'http://localhost:3000', // standard Next.js / Create React App port
   'http://127.0.0.1:5173',
+  'https://cyber-hub-mocha.vercel.app',
   process.env.CLIENT_URL
 ].filter(Boolean);
 

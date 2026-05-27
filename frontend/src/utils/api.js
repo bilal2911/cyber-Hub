@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://cyberhub-backend-wtsb.onrender.com',
+  baseURL: 'https://cyberhub-backend-wtsb.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
